@@ -4,9 +4,8 @@ This project offers a MySQL database system for managing streaming content, such
 
 ### UML and ER Diagram
 
-![LogicDiagram-Photoroom png-Photoroom](https://github.com/ameyagidh/MusicStreamingDatabase/assets/65457905/bb167a3a-240d-46bc-a677-120082c9d1e9)
 ![UMLDiagram](https://github.com/ameyagidh/MusicStreamingDatabase/assets/65457905/e8803260-ec8a-477b-87d1-16ad5d35cf38)
-
+![LogicDiagram-Photoroom png-Photoroom](https://github.com/ameyagidh/MusicStreamingDatabase/assets/65457905/bb167a3a-240d-46bc-a677-120082c9d1e9)
 
 ### Prerequisites:
 
