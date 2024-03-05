@@ -11,6 +11,7 @@ This project offers a MySQL database system for managing streaming content, such
 ![8i14qf](https://github.com/ameyagidh/MusicStreamingDatabase/assets/65457905/e8b14f37-58f4-4947-ab30-45adc4386ffa){:height="50%" width="50%"}
 
 
+
 ### Prerequisites:
 
 1. **Python 3.x:** Install Python from the [official website](https://www.python.org/downloads/).
