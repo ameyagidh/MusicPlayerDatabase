@@ -10,6 +10,8 @@ This project offers a MySQL database system for managing streaming content, such
 ### Working Flask App with SQL
 <img width="800" src="https://github.com/ameyagidh/MusicStreamingDatabase/assets/65457905/e8b14f37-58f4-4947-ab30-45adc4386ffa">
 
+![8i14qf](https://github.com/ameyagidh/MusicStreamingDatabase/assets/65457905/52598dba-cb14-4513-a24b-d01012cc633c)
+![8i156i](https://github.com/ameyagidh/MusicStreamingDatabase/assets/65457905/2c91b5ec-77c6-4c7e-845e-f196901d4387)
 
 
 ### Prerequisites:
