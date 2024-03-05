@@ -1,0 +1,65 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block pagetitle %}<i class="fas fa-home fa-1x"></i>{% endblock %}
+
+{% block content %}
+<div class="home">
+    <div class="content-top">
+        <form action="" method="post"> 
+            <button name="new" class="newplaylistbutton">Create New Playlist</button> 
+        </form>
+    </div>
+    <table id="playlists" class="styled-table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th> 
+                <th>Status</th> 
+                <th>Tracks</th> 
+                <th>Duration</th> 
+                <td></td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for playlist in playlists %}
+            <tr>
+                <td>{{ playlist['name'] }}</td>
+                <td>{{ playlist['status'] }}</td>
+                <td>{{ playlist['tracks'] }}</td>
+                <td>{{ playlist['duration'] }}</td>
+                <td>
+                    <form action="" method="post">
+                        <button class="view" name="view" value="{{ playlist['playlistId'] }}">View</button>
+                    </form>
+                </td>
+                <td>
+                    <form action="" method="post">
+                        <button class="view" name="remove" value="{{ playlist['playlistId'] }}">Remove</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+$(document).ready(function () {
+    var table = $('#playlists').DataTable({
+        columns: [
+            { searchable: true },
+            { searchable: true },
+            { orderable: true, searchable: true },
+            { orderable: false, searchable: false },
+            { orderable: false, searchable: false },
+            { orderable: false, searchable: false },
+        ],
+        "lengthChange": false
+    });
+});
+</script>
+{% endblock %}
